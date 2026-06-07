@@ -1,0 +1,58 @@
+aid: dati-lazio-it
+name: Lazio Open Data
+description: >-
+  Lazio Open Data is a regional government open-data portal for Italy running CKAN.
+  It exposes the CKAN catalog API over approximately 406 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Regional Government
+  - Italy
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: dati-lazio-it:catalog
+    name: Lazio Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Lazio Open Data, covering ~406 datasets. Base URL https://dati.lazio.it/api/3/action/.
+    humanURL: https://dati.lazio.it
+    baseURL: https://dati.lazio.it/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dati.lazio.it
+      - type: x-api-endpoint
+        url: https://dati.lazio.it/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.11'
+common:
+  - type: Website
+    url: https://dati.lazio.it
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dati-lazio-it-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dati-lazio-it-rate-limits.yml
+  - type: FinOps
+    url: finops/dati-lazio-it-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
