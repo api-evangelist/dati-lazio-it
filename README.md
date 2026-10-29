@@ -1,4 +1,4 @@
-# Lazio Open Data (dati-lazio-it)
+# Lazio Open Data
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,12 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lazio Open Data is a regional government open-data portal for Italy running **CKAN** (~406 datasets).
+Lazio Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 406 datasets.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Government Data · Regional Government · Italy
 
-## API
-- Base: `https://dati.lazio.it/api/3/action` · [Docs](https://docs.ckan.org/en/latest/api/) · [Portal](https://dati.lazio.it)
+## Lazio Open Data on APIs.io
 
-## Maintainers
-**FN:** Kin Lane **Email:** kin@apievangelist.com
+Everything profiled for Lazio Open Data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dati-lazio-it/](https://apis.io/providers/dati-lazio-it/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Lazio Open Data CKAN Action API](https://apis.io/apis/dati-lazio-it/catalog/) — CKAN Action API for Lazio Open Data, covering ~406 datasets. Base URL https://dati.lazio.it/api/3/action/.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dati Lazio It Domain Security](https://apis.io/security/dati-lazio-it/dati-lazio-it-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dati Lazio It Plans Pricing](https://apis.io/plans/dati-lazio-it/dati-lazio-it-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dati Lazio It Rate Limits](https://apis.io/rate-limits/dati-lazio-it/dati-lazio-it-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Dati Lazio It Finops](https://apis.io/finops/dati-lazio-it/dati-lazio-it-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dati.lazio.it)
+- [Documentation](https://docs.ckan.org/en/latest/api/)
+
+## API Evangelist rating
+
+**Kin Score 7.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dati-lazio-it/](https://apis.io/providers/dati-lazio-it/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lazio Open Data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dati-lazio-it/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
